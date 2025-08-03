@@ -16,11 +16,7 @@ import warnings
 
 warnings.filterwarnings('ignore')
 
-# TensorFlow configuration
-os.environ["TF_USE_LEGACY_KERAS"] = "1"
-import tensorflow as tf
 
-tf.get_logger().setLevel(40)
 
 # Page configuration
 st.set_page_config(
